@@ -1,1 +1,2 @@
 # Data-Structures-and-Algorithms
+This repository features custom implementations of common data structures as well as additional material regarding big O, runtime and practicality of use for each data structure.  While I have a seperate repository dedicated to my SNHU course on data structures with a final project in C++, this repository contains data structures build in Java and Python.  I used Udemy courses to help further supplement my learning and construct these custom implementations.  
