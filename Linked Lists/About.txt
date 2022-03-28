@@ -1,1 +1,18 @@
+Based on nodes that store data that are not contigously saved in memory.
+Utilizes pointers to connect nodes. 
+Nodes point to the next node in succession or null which signifies the end of the list.
+Can be ordered.
+Nodes can also point to a previous node as well (doubly linked list). 
+Does not require shifting indexes with removal or insertion.
+Can be slower with lookup or iteration than Arrays/Lists due lack of indexing and how nodes are stored in memory.
+
+Prepend = O(1)
+Append = O(1)
+Lookup = O(n)
+Insert = O(n) (Considering the insertion is not at the head or tail)
+Delete Last = O(n) (Iterate through the list to find the tail)
+Delete First = O(1)
+
+
+
 
