@@ -1,1 +1,20 @@
+Creates key-value pairs for quick access.
+Stores in array or list of certain size.
+Hash function generates an index to store the value based off an equation.
+The hash function is one way. 
+Good at improving time complexity.
+Unable to be ordered, however there is no index shifting.
+Slow Key iteration.
+Can have collisions, in which we can resolve this by using a hashtable with a linked list (separate chaining).
+
+Hash function is generally O(1)
+Insert = O(1)
+Lookup = O(1)
+Delete = O(1)
+Search = O(1)
+
+If a collision occurs then we have to search the supporting data structure which in turn would affect Big O.
+For example, if seperate chaining is used, if something colides, lookup would be O(n).
+
+
 
