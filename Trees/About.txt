@@ -1,1 +1,37 @@
+Hiearchy based data structure.
+Starts with Root or Parent node and children nodes branch off the root/parent node.
+Children nodes that do not continue the tree are referred to leaves. 
+Nodes only point to a child.
+Binary Trees are generally used the most, each node can only 0,1 or 2 nodes and each child can only have one parent. 
+Perfect Binary tree = every node has two children, really effecient and desirable. 
+Full Binary Tree = each node might only have one or two children. 
+
+Binary Search Trees offer O(log N) which is very effecient but complications can arise. 
+Binary Search Trees also preserve relationships which is a benefit over hash tables.
+Left side of the node contains values that are lesser and everything to the right is considered greater. 
+
+Only if the tree is balanced***
+Lookup = O(log N)
+Insert = O(log N)
+Delete = O(log N)
+If the tree becomes unbalanced, it essentially becomes a linked listed and Big O becomes O(n)***
+No O(1) operations. 
+
+AVL and Red Black trees automatically rebalance themselves.
+Ususally already implemented in libraries. 
+
+Pros
+Better than O(n).
+Ordered.
+Flexible size.
+
+Cons
+No O(1) operations.
+Can be difficult to balance.
+Unbalanced Trees can result in O(n) operations. 
+
+
+
+
+
 
