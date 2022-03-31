@@ -1,7 +1,23 @@
 Generally both are built off of Linked Lists but can be built off of Arrays.  
-Stack = LIFO or Last In, First Out.
-Queue = FIFO or First In, First Out.
+Stack = LIFO or Last In, First Out. Think of stacking tennis balls into a can or stacking plates on top of one another.
+Queue = FIFO or First In, First Out. Think waiting in line at a restaraunt.
 Can generally be considered more controlled data structures, with less methods.
 It would not be recommended to build a queue with an array considering you would have to reshift indexes everytime following removal or dequeueing and that would cost time.
 When building stacks from Linked Lists, look up is slower because indexes are not located next to each other in memory, but you would never have to dynamically resize a linked list like you would an array if you needed more indexes.  
+
+Stack
+Lookup = O(n)
+Pop (removing from top) = O(1)
+Push (adding to top) = O(1)
+Peek (peek at top item) = O(1)
+
+Queue
+Lookup = O(n)
+Enqueue (adding to back of structure) = O(1)
+Dequeue (removing from front of structure) = O(1)
+Peek = (peeking at first in the structure) = O(1)
+
+
+
+
 
