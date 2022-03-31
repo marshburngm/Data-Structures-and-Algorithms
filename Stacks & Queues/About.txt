@@ -1,1 +1,7 @@
+Generally both are built off of Linked Lists but can be built off of Arrays.  
+Stack = LIFO or Last In, First Out.
+Queue = FIFO or First In, First Out.
+Can generally be considered more controlled data structures, with less methods.
+It would not be recommended to build a queue with an array considering you would have to reshift indexes everytime following removal or dequeueing and that would cost time.
+When building stacks from Linked Lists, look up is slower because indexes are not located next to each other in memory, but you would never have to dynamically resize a linked list like you would an array if you needed more indexes.  
 
