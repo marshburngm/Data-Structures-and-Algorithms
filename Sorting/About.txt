@@ -1,1 +1,64 @@
+Bubble Sort:
+-Not effecient, however is simple.
+-Time: O(n^2), Space: O(1)
+-Compares items in nested loops, one by one.
 
+Selection Sort:
+-Slightly more effecient than bubble sort.
+-Time: O(n^2), Space: O(1)
+-Issues a smallest index, then searches for the smallest to then swap, uses nested loops. 
+
+Insertion Sort:
+-Generally not effecient, but is very effecient if the structure is small or is nearly sorted.*** 
+-Time: O(n^2), Space: O(1)
+-Compares each value with an already sorted black of numbers, can insert in between already sorted numbers d/t nested loops. 
+
+Merge Sort:
+-More complex but generally more effecient than other algorithms but time complexity is worse.  Uses divide and conquer, recursion.
+-Time: O(n log n), Space:O(n)
+-Takes list, locates the middle and splits in half until there is one item in each list, then compares lists and merges them back togther, in the order fashion they were split, sorted.
+-Stable, it preserves the original order of the values if the values are equal.
+
+Quick Sort:
+-More complex but generally more effecient than other algorithms but time complexity is worse.  Uses divide and conquer, recursion.
+-Time: O(n^2), Space:O(log(n)) **O(n^2) may occur if the pivot is selected are largest or smallest causing the algorithm to compare every number before splitting.
+-Uses a pivot technique to randomly establish a pivot to initially compare and sort values before breaking lists down to further sort them.  Once initial pivot sorts original list, it is then split off into two lists, the pivot is generated and then sorts the newly split lists via divide and conquer.  
+
+QuickSort & MergeSort generally are the most used. 
+QuickSort is usually fastest but there is a chance that you can get O(n^2).
+Avoid QuickSort if you cannot guarantee a proper pivot point or if there is bad data.
+
+**Use insertion sort if input is small or items are mostly sorted. Easier to implement and uses little space.
+**Generally, do not use bubble sort, mainly educational, not effecient. 
+**Generally, do not use selection sort, mainly educational, not effecient.
+**MergeSort is generally a good option because time wise best, worst, avg case = O(n log n). 
+**QuickSort is generally a good option but can suffer based on Time complexity if poor pivot is choosen (O(n^2)). 
+**IF memory is of concern, use QuickSort d/t O(log(n)) Space complexity, else use MergeSort.
+**In certain cases if you are worried about both Time & Space, elect for HeapSort.  HeapSort is generally slower than Quick/Merge but offers O(n log n) Time and O(1) space.  
+**Counting sort & Radix sort only works on numbers and set data.
+
+**Rewatch ZTM if necessary.
+//#1 - Sort 10 schools around your house by distance:
+insertion sort
+
+//#2 - eBay sorts listings by the current Bid amount: 
+radix or counting sort (bids will always be numbers).
+
+//#3 - Sort scores on ESPN
+Quick sort
+
+//#4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+Merge Sort
+
+//#5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+Insertion Sort
+
+//#6 - Temperature Records for the past 50 years in Canada
+radix or counting Sort
+Quick sort if decimal places
+
+//#7 - Large user name database needs to be sorted. Data is very random.
+Quick sort
+
+//#8 - You want to teach sorting
+Bubble sort
