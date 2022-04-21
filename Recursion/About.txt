@@ -7,3 +7,7 @@ Good for trees, graphs and traversals.
 1. Problem can be divided into smaller instances of the same problem.
 2. Each instance of the subproblem is identical in nature.
 3. The solutions of each subproblem can be combined to solve the problem at hand. 
+
+
+
+
