@@ -1,4 +1,9 @@
 Calls a function within itself.
 Be careful with stack overflow.
 Must have a base case and an exit case to avoidstack overflow. 
-
+Anything that can be implemented recursively can be implemented iteratively. 
+Can keep code readable and DRY but can be very taxing on memory. 
+Good for trees, graphs and traversals.
+1. Problem can be divided into smaller instances of the same problem.
+2. Each instance of the subproblem is identical in nature.
+3. The solutions of each subproblem can be combined to solve the problem at hand. 
