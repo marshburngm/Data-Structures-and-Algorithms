@@ -1,1 +1,4 @@
+Calls a function within itself.
+Be careful with stack overflow.
+Must have a base case and an exit case to avoidstack overflow. 
 
