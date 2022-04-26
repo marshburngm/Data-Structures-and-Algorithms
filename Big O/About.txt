@@ -1,1 +1,4 @@
+Good code is readable and scalable.
 
+O(n) = most common, generally.  Linear Time. Based of size of input and number of operations.
+O(1) = Constant Time.  Does not matter the size of input, always performs one operation. 
