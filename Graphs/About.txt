@@ -1,1 +1,17 @@
 
+Set of values that related to different pairs.
+Nodes or vertices are connected via edges. 
+Great for connecting real world relationships and presenting links. 
+  -etc. roads, networks, relationships, etc. 
+Trees, Linkedlists are a branch of graphs. 
+Can be directed or undirected. 
+  -Can flow multiple direcetions or have one specific way only. 
+Can have weighted and unweighted (value or no value associated with the edges).  
+  -Can be cyclic (common in weighted) or acyclic, vertices connected in a circular fashion or not. 
+  
+Great for displaying relationships.
+Does NOT scale well.  
+Built off other data structures.  
+Likely will not have to implement your own graph. 
+  
+
