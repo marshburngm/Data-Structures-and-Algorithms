@@ -1,0 +1,35 @@
+
+Linear Search – Sequential search, method of finding value in list. Checks each element one by one.  Worst Case = O(n). 
+Binary Search – Data structure must be sorted.  Establishes a pivot point or splits the data structure in half, then throws out half the values that are not needed during the search for a certain value.  Worst Case = O(log n)
+Traversal – Touching or visiting each node in a tree or graph.  All traversals are O(n).  Goal when traversing is to attempt to get through tree or graph without visiting the same node twice.
+
+Depth First Search (DFS) – Traverses from left to right but traverses the nodes all the way to the bottom of the left side, then moves to the next set of nodes.  More memory consumption. Does not requires tracking the child nodes. Better if you might have the assumption that the target node is located at the lower levels of the tree or graph. 
+•	Does the path exist?
+•	Less memory.
+•	Can become slow, does not usually find shortest path.
+•	Uses recursion, so can be taxing with large and deep trees.
+•	3 ways to implement: InOrder – values are in order, PreOrder – preserves structure of tree, PostOrder – grabs child nodes then the root. 
+
+Breadth First Search (BFS) – Starts at root node and traverses from the furthest node on the left and moves across to the furthest node on the right, then descends to the next level. If you have information on the target node and can assume that the node is near the top or close to the root node, use BFS.
+•	More memory consumption
+•	Can find the shortest path
+•	Requires tracking the child nodes
+** Examples of BFS and DFS for Tree Traversal are located in Trees directory.  
+
+//If you know a solution is not far from the root of the tree:
+BFS
+//If the tree is very deep and solutions are rare, 
+BFS (DFS will take long time.)
+//If the tree is very wide:
+DFS (BFS will need too much memory)
+//If solutions are frequent but located deep in the tree
+DFS
+//determining whether a path exists between two nodes
+DFS
+//Finding the shortest path
+BFS	
+
+Bellman-Ford’s Algorithm – Memory taxing but can find the shortest path of a WEIGHTED graph, considers negatively weighted paths. 
+Dijkstra’s Algorithm – Faster and more efficient than Bellman-Ford’s but does not account for negatively weighted graphs.  
+
+
